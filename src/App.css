@@ -1,0 +1,9 @@
+.main-background{
+  height: 100vh;
+  background-color: #F8F8F8;
+  margin: 0;
+}
+
+.sub-container{
+  display: flex;
+}

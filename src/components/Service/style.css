@@ -1,0 +1,13 @@
+.service-container{
+    border: 2px solid red;
+    width: 70%;
+    min-height: 100vh;
+}
+
+.cards-container{
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
