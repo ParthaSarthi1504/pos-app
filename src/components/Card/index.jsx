@@ -8,6 +8,8 @@ function Card() {
   const totalPrice = useSelector(state => state.cardInfo.price)
   return (
     <div className='addtocard'>
+
+      {/* added cards  */}
       <ul className='addtocard__cards-container'>
         {
           cardList?.map((card) => (
@@ -16,9 +18,14 @@ function Card() {
         }
       </ul>
 
+      {/* price container  */}
       <div>
-        <p>Total Price</p>
-        <p>{totalPrice}</p>
+        <div className='addtocard__price-container'>
+          <span>Total Price</span>
+          <span>₹ {totalPrice}</span>
+        </div>
+
+        <button type='button' className='addtocard__paynow'>Pay Now</button>
       </div>
     </div>
   )

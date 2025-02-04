@@ -1,14 +1,67 @@
 .addtocard-item{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 5px;
+    padding: 8px;
     border-radius: 5px;
+    list-style-type: none;
 }
 
 .addtocard-item__thumbnail{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    /* height: 50px; */
     border-radius: 5px;
+}
+
+.addtocard-item__img-div{
+    display: flex;
+    gap: 10px;
+}
+
+/* .addtocard-item__title{
+    font-size: 14px;
+} */
+
+.addtocard-item__price{
+ font-weight: 500;
+}
+
+.addtocard-item__card-detail-div{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    font-size: 14px;
+    /* border: 1px solid red; */
+}
+
+.addtocard-item__action-div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.addtocard-item__button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.addtocard-item__action-div-delete{
+    cursor: pointer;
+}
+
+.addtocard-item__action-div-buttons{
+    font-size: 16px;
+    /* font-weight: 600; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
 }

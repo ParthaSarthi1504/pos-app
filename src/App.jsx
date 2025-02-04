@@ -11,9 +11,9 @@ function App() {
   return (
     <div className='main-background'>
       <div className='sub-container'>
-        <Service />
-        {/* <Order /> */}
-        <Card/>
+        {/* <Service /> */}
+        <Order />
+        {/* <Card/> */}
       </div>
     </div>
   )

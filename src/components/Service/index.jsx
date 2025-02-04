@@ -16,7 +16,6 @@ function Service() {
           ))
         }
       </ul>
-
     </div>
   )
 }

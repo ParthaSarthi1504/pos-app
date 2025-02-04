@@ -1,10 +1,32 @@
 .addtocard{
     width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 40px;
 }
 .addtocard__cards-container{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 100%;
+    padding-left: 0;
+}
+
+.addtocard__price-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.addtocard__paynow{
+    background-color: #2E70F4;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
 }

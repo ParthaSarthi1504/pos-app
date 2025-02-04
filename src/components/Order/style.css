@@ -1,0 +1,41 @@
+.order-page {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-page_form_div {
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* .order-page_form{
+border: 1px solid red;
+} */
+
+.order-page_form_input {
+    width: 95%;
+    padding: 13px 10px;
+    border-radius: 5px;
+    outline: none;
+    border-width: 0;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.order-page_form_submit{
+    background-color: #2E70F4;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top:20px;
+    cursor: pointer;
+}
